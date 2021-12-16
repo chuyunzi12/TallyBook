@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.grt.tally">
+
+    <application
+        android:name="com.grt.tally.UniteApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.grt.tally.ChartActivity"></activity>
+        <activity android:name="com.grt.tally.SettingActivity" />
+        <activity android:name="com.grt.tally.HistoryActivity" />
+        <activity android:name="com.grt.tally.AboutActivity" />
+        <activity android:name="com.grt.tally.SearchActivity" />
+        <activity android:name="com.grt.tally.RecordActivity" />
+        <activity android:name="com.grt.tally.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

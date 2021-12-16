@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_f3f3f3"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dialog_more_btn_about"
+            style="@style/dialogmoreStyle"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/it_guanyu"
+            android:drawablePadding="15dp"
+            android:text="@string/about" />
+
+        <Button
+            android:id="@+id/dialog_more_btn_setting"
+            style="@style/dialogmoreStyle"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/it_shezhi"
+            android:drawablePadding="15dp"
+            android:text="@string/setting" />
+
+        <Button
+            android:id="@+id/dialog_more_btn_record"
+            style="@style/dialogmoreStyle"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/it_jilu"
+            android:drawablePadding="15dp"
+            android:text="@string/history_record" />
+
+
+        <Button
+            android:id="@+id/dialog_more_btn_info"
+            style="@style/dialogmoreStyle"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/it_xiqing"
+            android:drawablePadding="15dp"
+            android:text="@string/account_info" />
+
+        <Button
+            android:id="@+id/dialog_more_btn_chart"
+            style="@style/dialogmoreStyle"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/chart"
+            android:drawablePadding="15dp"
+            android:text="@string/account_chart" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/dialog_more_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/ih_error" />
+</LinearLayout>
